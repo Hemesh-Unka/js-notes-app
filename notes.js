@@ -14,7 +14,7 @@ const saveNotes = (notes) => {
 
 const addNote = (title, body) => {
   const notes = fetchNotes();
-  const note = {
+  let note = {
     title,
     body,
   };
